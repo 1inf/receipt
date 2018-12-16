@@ -1,9 +1,9 @@
 
 public class global_variables {
 
-	static String Names[]= {"Spa reine 25 ","Bru plate 50","Bru pét 50","Pepsi","Spa orange", "Schweppes Tonic","Schweppes Agr","Ice Tea","Ice Tea Pêche",
-			"Jus d'orange Looza", "Cécémel", "Red Bull","Petit Expresso","Grand Expresso","Café décaféiné ", "Thé et infusions","Irish Coffee ",
-			"French Coffee ","Cappuccino","Cécémel chaud","Passione Italiano","Amour Intense", "Rhumba Caliente ","Irish Kisses ","Cuvée Trolls 25",
+	static String Names[]= {"Spa reine 25 ","Bru plate 50","Bru pÃ©t 50","Pepsi","Spa orange", "Schweppes Tonic","Schweppes Agr","Ice Tea","Ice Tea PÃªche",
+			"Jus d'orange Looza", "CÃ©cÃ©mel", "Red Bull","Petit Expresso","Grand Expresso","CafÃ© dÃ©cafÃ©inÃ© ", "ThÃ© et infusions","Irish Coffee ",
+			"French Coffee ","Cappuccino","CÃ©cÃ©mel chaud","Passione Italiano","Amour Intense", "Rhumba Caliente ","Irish Kisses ","CuvÃ©e Trolls 25",
 			"Cuvee Trolls 50","Ambrasse-Temps 25","Ambrasse-Temps 50 ","Brasse-Temps Cerises 25", "Brasse-Temps Cerises 50","La Blanche Ste Waudru 25",
 			"Blanche Ste Waudru 50","Brasse-Temps citr 25","Brasse-Temps citr 50","Spaghetti Bolo ","Tagl Carbonara",
 			"Penne poulet baslc ","Tagl American","Tagl saum"};
@@ -14,4 +14,8 @@ public class global_variables {
 	byte TypeTVACons[]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1};
 	
 	double TVA[]= {21.0,12.0,6.0};
+	
+	final static String Q="Q";
+	final static int MAX_TABLE_NUMBER=20;
+	final static String MSG_TABLE_NUMBER="Entrez le numÃ©ro de table (de 1 Ã  " + MAX_TABLE_NUMBER + ") /Q (Quitter)";
 }
