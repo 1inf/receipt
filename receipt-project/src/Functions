@@ -2,7 +2,8 @@
 public class tableOrder {
 
 	public static int getTableNumber() {
-		//test
+		//fonction qui demande le numéro de table
+		
 		String tableNumber;
 		tableNumber=Utilities.getUserIntorSpecificInput(MSG_TABLE_NUMBER, Q, 1, MAX_TABLE_NUMBER);
 		if(tableNumber.equalsIgnoreCase(Q)) {
@@ -11,3 +12,11 @@ public class tableOrder {
 		return Integer.parseInt(tableNumber);
 	}
 }
+
+	public static void showMenu() {
+		//procédure permettant l'affichage
+		
+		for(int i=0; i<Names.length; i++) {
+			System.out.println((i+1) + " " + Names[i]);
+		}
+	}
