@@ -1,5 +1,5 @@
 
-public class tableOrder {
+public class receipt {
 
 	public static int getTableNumber() {
 		//fonction qui demande le numéro de table
